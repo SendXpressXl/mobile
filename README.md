@@ -1,6 +1,6 @@
 <div align="center">
 
-# OyaShip Mobile
+# SendXpress Mobile
 
 **Native iOS app for cross-border social commerce with Stellar escrow.**
 
@@ -15,13 +15,13 @@
 
 ## Overview
 
-This is the iOS client for **OyaShip** — a social commerce platform where importers discover products from global suppliers, negotiate in real-time chat, and pay safely through smart contract escrow on Stellar.
+This is the iOS client for **SendXpress** — a social commerce platform where importers discover products from global suppliers, negotiate in real-time chat, and pay safely through smart contract escrow on Stellar.
 
 The app creates a Stellar wallet automatically on sign-in (no seed phrases), lets users browse a social feed, discover products, chat with sellers, and lock funds in onchain escrow until goods arrive.
 
 **Related repos:**
-- [OyaShip/backend](https://github.com/OyaShip/backend) — Node.js API
-- [OyaShip/smartcontract](https://github.com/OyaShip/smartcontract) — Soroban escrow contract
+- [SendXpress/backend](https://github.com/SendXpress/backend) — Node.js API
+- [SendXpress/smartcontract](https://github.com/SendXpress/smartcontract) — Soroban escrow contract
 
 ---
 
@@ -46,7 +46,7 @@ The app creates a Stellar wallet automatically on sign-in (no seed phrases), let
 | **Crypto** | Apple CryptoKit (Ed25519) |
 | **Key storage** | iOS Keychain Services |
 | **Blockchain** | Stellar Testnet (Horizon API + Friendbot) |
-| **Backend** | OyaShip API (Node.js + Supabase) |
+| **Backend** | SendXpress API (Node.js + Supabase) |
 | **Design** | Custom design system — pure black theme, 8pt grid, SF Rounded |
 
 ---
@@ -54,8 +54,8 @@ The app creates a Stellar wallet automatically on sign-in (no seed phrases), let
 ## Project Structure
 
 ```
-OyaShip/
-├── OyaShipApp.swift              App entry point
+SendXpress/
+├── SendXpressApp.swift           App entry point
 ├── RootView.swift                Auth gate + navigation
 │
 ├── Models/
@@ -106,9 +106,9 @@ OyaShip/
 ### Run
 
 ```bash
-git clone https://github.com/OyaShip/mobile.git
+git clone https://github.com/SendXpress/mobile.git
 cd mobile
-open OyaShip.xcodeproj       # or create via Xcode → New Project
+open SendXpress.xcodeproj     # or create via Xcode → New Project
 # Select iPhone simulator → Cmd+R
 ```
 

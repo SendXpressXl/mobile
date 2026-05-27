@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to OyaShip Mobile are documented here.
+All notable changes to SendXpress Mobile are documented here.
 
 ## [Unreleased]
 

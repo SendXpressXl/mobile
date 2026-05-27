@@ -9,7 +9,7 @@ struct LandingView: View {
             C.bg.ignoresSafeArea()
             VStack(spacing: S._24) {
                 Spacer()
-                Text("OyaShip").font(.d1).foregroundColor(C.t1)
+                Text("SendXpress").font(.d1).foregroundColor(C.t1)
                 Text("Pay your supplier. Get your goods.")
                     .font(.b1).foregroundColor(C.t2).multilineTextAlignment(.center)
                 Spacer()

@@ -12,8 +12,8 @@ class AuthManager: ObservableObject {
     @Published var userId: String?
     @Published var balance: String = "0"
 
-    private let keychainPublicKey  = "oyaship.stellar.public"
-    private let keychainSecretKey  = "oyaship.stellar.secret"
+    private let keychainPublicKey  = "sendxpress.stellar.public"
+    private let keychainSecretKey  = "sendxpress.stellar.secret"
 
     init() {
         if let pub = keychainLoad(keychainPublicKey),

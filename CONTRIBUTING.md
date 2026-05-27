@@ -1,4 +1,4 @@
-# Contributing to OyaShip Mobile
+# Contributing to SendXpress Mobile
 
 Thank you for your interest in contributing!
 
@@ -10,9 +10,9 @@ Thank you for your interest in contributing!
 ## Setup
 
 ```bash
-git clone https://github.com/OyaShip/mobile.git
+git clone https://github.com/SendXpress/mobile.git
 cd mobile
-open OyaShip.xcodeproj
+open SendXpress.xcodeproj
 ```
 
 No external dependencies — pure SwiftUI + Apple frameworks.
@@ -25,11 +25,11 @@ No external dependencies — pure SwiftUI + Apple frameworks.
 
 ## Project Structure
 
-- `OyaShip/Services/` — API and auth logic
-- `OyaShip/Views/` — SwiftUI screens
-- `OyaShip/Components/` — reusable UI components
-- `OyaShip/Models/` — data models
-- `OyaShip/Theme/` — design system tokens
+- `SendXpress/Services/` — API and auth logic
+- `SendXpress/Views/` — SwiftUI screens
+- `SendXpress/Components/` — reusable UI components
+- `SendXpress/Models/` — data models
+- `SendXpress/Theme/` — design system tokens
 
 ## Pull Request Process
 

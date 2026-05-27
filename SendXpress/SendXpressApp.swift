@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct OyaShipApp: App {
+struct SendXpressApp: App {
     @StateObject private var auth = AuthManager()
     @StateObject private var api = APIService()
 

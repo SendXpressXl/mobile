@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Communicates with the OyaShip backend API.
+/// Communicates with the SendXpress backend API.
 @MainActor
 class APIService: ObservableObject {
     private let baseURL: String
